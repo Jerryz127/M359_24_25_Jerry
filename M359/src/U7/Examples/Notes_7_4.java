@@ -79,7 +79,7 @@ public class Notes_7_4 {
          * @return returns its int value
          */
         public static int findMax(ArrayList<Integer> list) {
-
+        return 1;
         }
 
         /**
@@ -88,7 +88,7 @@ public class Notes_7_4 {
          * @return returns the int value for the sum
          */
         public static int findSum(ArrayList<Integer> list) {
-
+            return 1;
         }
 
         /**
@@ -97,7 +97,7 @@ public class Notes_7_4 {
          * @return double average value
          */
         public static double findAverage(ArrayList<Integer> list) {
-
+        return  1;
         }
 
         /**
@@ -106,7 +106,7 @@ public class Notes_7_4 {
          * @return true or false if increasing
          */
         public static boolean isIncreasing(ArrayList<Integer> list) {
-
+            return true;
         }
 
         /**
@@ -133,7 +133,9 @@ public class Notes_7_4 {
          * @return new ArrayList of Strings in reverse order
          */
         public static ArrayList<String> revArrayList(ArrayList<String> list) {
-
+            ArrayList<String> a = new ArrayList<>();
+            a.add("nice");
+            return a;
         }
 
         /**
