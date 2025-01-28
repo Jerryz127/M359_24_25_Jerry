@@ -9,7 +9,7 @@ public class InsertionSort {
     }
 
     public static void insertionSort(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 1; i < nums.length; i++) {
             int temVal = nums[i];
             int currPos = i;
             while(currPos > 0 && nums[currPos - 1] > temVal){
