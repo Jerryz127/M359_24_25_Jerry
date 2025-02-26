@@ -9,6 +9,11 @@ public class Athlete {
         age = a;
     }
 
+    public Athlete(){
+        name = "none";
+        age = -1;
+    }
+
     public String getName(){
         return name;
     }

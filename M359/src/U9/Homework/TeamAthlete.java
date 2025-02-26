@@ -5,7 +5,7 @@ public class TeamAthlete extends Athlete{
     private String sport;
 
     public TeamAthlete(String n, int a, String t, String s){
-        super(n, a);
+        //super(n, a);
         teamName = t;
         sport = s;
     }
