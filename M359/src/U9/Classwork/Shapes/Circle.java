@@ -20,7 +20,7 @@ public class Circle extends Shape{
         radius = a;
     }
 
-    public int findArea(){
-        return radius * radius;
+    public double findArea(){
+        return Math.pow(radius, 2) * Math.PI;
     }
 }

@@ -6,10 +6,10 @@ public class Square extends Rectangle{
     }
 
     public String toString(){
-        return super.toString();
+        return getcolor() + " " + getName() + " with side of: " + getLength();
     }
 
-    public int findArea(){
-        return getLength() * getLength();
+    public double findArea(){
+        return super.findArea();
     }
 }

@@ -13,6 +13,14 @@ public class Shape {
         return color + " " + name;
     }
 
+    /*
+    This method is created soley for the purpose of inheritance/
+    We will learn more about this in section 9.5
+     */
+    public double findArea(){
+        return 0.0;
+    }
+
     public String getName(){
         return name;
     }
@@ -28,5 +36,4 @@ public class Shape {
     public void setColor(String s){
         color = s;
     }
-
 }

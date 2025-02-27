@@ -29,7 +29,12 @@ public class Rectangle extends Shape{
         width = s;
     }
 
-    public int findArea(){
-        return width * length;
+    public double findArea(){
+        return length * width;
+    }
+
+    public void scaleSize(int n){
+        length *= n;
+        width *= n;
     }
 }
